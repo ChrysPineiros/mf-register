@@ -14,5 +14,6 @@ const moduleFederationConfig = withModuleFederationPlugin({
 
 });
 
-moduleFederationConfig.output.publicPath = 'http://localhost:4202/'
+//moduleFederationConfig.output.publicPath = 'http://localhost/mf-register/';
+moduleFederationConfig.output.publicPath = 'http://localhost:4202/';
 module.exports = moduleFederationConfig;
